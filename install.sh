@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script automatically detect the EasyEffects presets directory and installs the presets
 
-GIT_REPOSITORY="https://raw.githubusercontent.com/JackHack96/EasyEffects-Presets/master"
+GIT_REPOSITORY="https://raw.githubusercontent.com/Talkar/EasyEffects-Presets/master"
 
 check_installation() {
     if command -v flatpak &>/dev/null && flatpak list | grep -q "com.github.wwmm.easyeffects"; then
